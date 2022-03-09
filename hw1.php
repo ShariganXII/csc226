@@ -1,12 +1,12 @@
 <?php
-$name = "Junjie Du";
+$name = "Jun Jie Du";
 $credit = 11;
 $any_val = 5.5;
-var_dump($name);
+echo "Name: " ; var_dump($name);
 echo "<br>";
-var_dump($credit);
+echo "Credit: " ; var_dump($credit);
 echo "<br>";
-var_dump($any_val);
+echo "Any variable for float: "; var_dump($any_val);
 echo "<br>";
 echo "Welcome ", $name; echo "<br>";
 
